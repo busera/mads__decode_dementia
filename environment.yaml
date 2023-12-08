@@ -1,0 +1,6 @@
+name: dementia
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9.16
+  - poetry=1.6.1
