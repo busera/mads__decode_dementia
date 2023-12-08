@@ -119,7 +119,13 @@ We recommend using `conda` as the foundation because it simplifies the managemen
 conda env create -f environment.yaml
 ```
 
-Once the environment is set up, activate it and proceed to install the packages with **Poetry**:
+Once the environment is set up, activate it:
+
+```bash
+conda activate dementia
+```
+
+Proceed to install the packages with **Poetry**:
 
 ```bash
 poetry install
