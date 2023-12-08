@@ -127,7 +127,7 @@ poetry install
 
 ### 5.2. Add Data
 
-The data utilized for this project can also be found in the GitHub repository, specifically in the "data" folder.
+The data utilized for this project can be found in the GitHub repository, specifically in the "data" folder.
 
 However, you can also download the data directly from the Allen Institute for Brain Science website.
 
