@@ -74,8 +74,9 @@ def load_data(path):
     return pd.read_parquet(ROOT_PATH + path)
 
 
-file = "features_merged.parquet"
-df = pd.read_parquet(ROOT_PATH + PATH_DATA_INT + file)
+#file = "features_merged.parquet"
+file = "features_merged.csv"
+df = pd.read_csv(ROOT_PATH + PATH_DATA_INT + file)
 # -
 
 

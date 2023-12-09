@@ -7483,7 +7483,7 @@ a.anchor-link {
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <ul>
 <li>Version: 1.0</li>
-<li>last update: 2023-12-08</li>
+<li>last update: 2023-12-09</li>
 <li>Short description: This notebook models causal inference for demographic variables using donor information.</li>
 </ul>
 </div>
@@ -7619,7 +7619,7 @@ Dep. Variable:     act_demented_clean   No. Observations:                  107
 Model:                          Logit   Df Residuals:                      105
 Method:                           MLE   Df Model:                            1
 Date:                Sat, 09 Dec 2023   Pseudo R-squ.:                0.001900
-Time:                        01:51:20   Log-Likelihood:                -73.797
+Time:                        19:44:46   Log-Likelihood:                -73.797
 converged:                       True   LL-Null:                       -73.938
 Covariance Type:            nonrobust   LLR p-value:                    0.5960
 ========================================================================================
@@ -7688,7 +7688,7 @@ Model Family:                Binomial   Df Model:                            1
 Link Function:                  Logit   Scale:                          1.0000
 Method:                          IRLS   Log-Likelihood:                -2310.1
 Date:                Sat, 09 Dec 2023   Deviance:                       4620.3
-Time:                        01:51:20   Pearson chi2:                 3.97e+03
+Time:                        19:44:46   Pearson chi2:                 3.97e+03
 No. Iterations:                     4   Pseudo R-squ. (CS):             0.3663
 Covariance Type:            nonrobust                                         
 ========================================================================================
@@ -7849,7 +7849,7 @@ Dep. Variable:     act_demented_clean   No. Observations:                  100
 Model:                          Logit   Df Residuals:                       93
 Method:                           MLE   Df Model:                            6
 Date:                Sat, 09 Dec 2023   Pseudo R-squ.:                 0.08246
-Time:                        01:51:21   Log-Likelihood:                -63.139
+Time:                        19:44:46   Log-Likelihood:                -63.139
 converged:                       True   LL-Null:                       -68.814
 Covariance Type:            nonrobust   LLR p-value:                   0.07817
 ========================================================================================
@@ -7998,7 +7998,7 @@ Model Family:                Binomial   Df Model:                            6
 Link Function:                  Logit   Scale:                          1.0000
 Method:                          IRLS   Log-Likelihood:                -1700.3
 Date:                Sat, 09 Dec 2023   Deviance:                       3400.6
-Time:                        01:51:21   Pearson chi2:                 3.49e+03
+Time:                        19:44:46   Pearson chi2:                 3.49e+03
 No. Iterations:                     5   Pseudo R-squ. (CS):             0.9994
 Covariance Type:            nonrobust                                         
 ========================================================================================
@@ -8114,8 +8114,7 @@ cerad                    0.3148      0.043      7.368      0.000       0.231    
  'education_years',
  'cerad',
  'age_at_first_tbi',
- 'longest_loc_duration_clean',
- 'num_tbi_w_loc']</pre>
+ 'longest_loc_duration_clean']</pre>
 </div>
 </div>
 </div>
@@ -8130,27 +8129,26 @@ cerad                    0.3148      0.043      7.368      0.000       0.231    
 <pre>                 Generalized Linear Model Regression Results                  
 ==============================================================================
 Dep. Variable:     act_demented_clean   No. Observations:                   93
-Model:                            GLM   Df Residuals:                       83
-Model Family:                Binomial   Df Model:                            9
+Model:                            GLM   Df Residuals:                       84
+Model Family:                Binomial   Df Model:                            8
 Link Function:                  Logit   Scale:                          1.0000
-Method:                          IRLS   Log-Likelihood:                -1601.0
-Date:                Sat, 09 Dec 2023   Deviance:                       3201.9
-Time:                        01:51:21   Pearson chi2:                 3.36e+03
-No. Iterations:                     6   Pseudo R-squ. (CS):             0.9993
+Method:                          IRLS   Log-Likelihood:                -1607.6
+Date:                Sat, 09 Dec 2023   Deviance:                       3215.3
+Time:                        19:44:46   Pearson chi2:                 3.41e+03
+No. Iterations:                     5   Pseudo R-squ. (CS):             0.9992
 Covariance Type:            nonrobust                                         
 ==============================================================================================
                                  coef    std err          z      P&gt;|z|      [0.025      0.975]
 ----------------------------------------------------------------------------------------------
-const                          1.4085      0.737      1.910      0.056      -0.037       2.854
-ever_tbi_w_loc_clean           1.2783      0.496      2.577      0.010       0.306       2.251
-age_clean                     -0.0060      0.008     -0.790      0.430      -0.021       0.009
-sex_clean                      0.5467      0.092      5.968      0.000       0.367       0.726
-apo_e4_allele_clean            1.8800      0.115     16.330      0.000       1.654       2.106
-education_years               -0.2256      0.015    -14.567      0.000      -0.256      -0.195
-cerad                          0.2732      0.045      6.079      0.000       0.185       0.361
-age_at_first_tbi               0.0085      0.004      2.116      0.034       0.001       0.016
-longest_loc_duration_clean     0.0001   9.04e-05      1.416      0.157   -4.92e-05       0.000
-num_tbi_w_loc                 -1.1965      0.384     -3.116      0.002      -1.949      -0.444
+const                          1.4669      0.736      1.992      0.046       0.023       2.910
+ever_tbi_w_loc_clean          -0.1165      0.261     -0.447      0.655      -0.627       0.394
+age_clean                     -0.0049      0.008     -0.644      0.520      -0.020       0.010
+sex_clean                      0.5123      0.091      5.607      0.000       0.333       0.691
+apo_e4_allele_clean            1.9265      0.115     16.805      0.000       1.702       2.151
+education_years               -0.2356      0.015    -15.421      0.000      -0.266      -0.206
+cerad                          0.2647      0.045      5.891      0.000       0.177       0.353
+age_at_first_tbi               0.0108      0.004      2.737      0.006       0.003       0.019
+longest_loc_duration_clean  9.138e-05   8.87e-05      1.030      0.303   -8.26e-05       0.000
 ==============================================================================================
 </pre>
 </div>
@@ -8299,7 +8297,7 @@ Model Family:                Binomial   Df Model:                            7
 Link Function:                  Logit   Scale:                          1.0000
 Method:                          IRLS   Log-Likelihood:                -1800.2
 Date:                Sat, 09 Dec 2023   Deviance:                       3600.3
-Time:                        01:51:21   Pearson chi2:                 3.49e+03
+Time:                        19:44:47   Pearson chi2:                 3.49e+03
 No. Iterations:                     5   Pseudo R-squ. (CS):             0.9953
 Covariance Type:            nonrobust                                         
 ==============================================================================================
@@ -8375,6 +8373,2050 @@ longest_loc_duration_bin       0.2244      0.064      3.490      0.000       0.0
 </ul>
 </li>
 </ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Addressing-Overfitting">Addressing Overfitting<a class="anchor-link" href="#Addressing-Overfitting">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p>When analyzing the initial GLM model, we noted that it reported a Pseudo R-squared of 0.9953. This value is unusually high for logistic regression models, especially given our modest sample size of 100 observations. A Pseudo R-squared of this magnitude often suggests overfitting. Overfitting occurs when a model captures noise as if it were a significant pattern, leading to poor performance on new, unseen data.</p>
+<p>To address this concern and to validate our insights, we collectively took the following steps in our analysis:</p>
+<ul>
+<li><p><strong>Data Preprocessing:</strong> We chose not to directly incorporate 'group_weights' into our modeling process. Instead, we expanded the dataset by duplicating records according to their respective rounded 'group_weight'. This step was crucial in balancing the dataset, making it more reflective of the real-world distribution and ensuring a more robust analysis.</p>
+</li>
+<li><p><strong>Modeling with sm.Logit:</strong> We applied a logistic regression model using sm.Logit from the statsmodels library. This method allowed us to calculate the coefficients and p-values for each predictor, providing us with a statistical foundation to gauge their impact on our outcome variable, 'act_demented_clean'.</p>
+</li>
+<li><p><strong>Comparative Analysis with sm.GLM:</strong> We compared the results from sm.Logit with those obtained from a Generalized Linear Model (GLM) using the same library. This comparative analysis was instrumental in assessing the consistency and reliability of our findings across different modeling techniques.</p>
+</li>
+<li><p><strong>Interpreting the Coefficients:</strong> To make our results more accessible and interpretable, we calculated the percentage changes associated with each predictor. These percentages illustrate how the odds of the outcome, 'act_demented_clean', change with a one-unit alteration in each predictor. This step was vital in translating the logistic regression coefficients into a more understandable format.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>donor_id</th>
+<th>name</th>
+<th>age</th>
+<th>sex</th>
+<th>apo_e4_allele</th>
+<th>education_years</th>
+<th>age_at_first_tbi</th>
+<th>longest_loc_duration</th>
+<th>cerad</th>
+<th>num_tbi_w_loc</th>
+<th>dsm_iv_clinical_diagnosis</th>
+<th>control_set</th>
+<th>nincds_arda_diagnosis</th>
+<th>ever_tbi_w_loc</th>
+<th>race</th>
+<th>hispanic</th>
+<th>act_demented</th>
+<th>braak</th>
+<th>nia_reagan</th>
+<th>age_bin</th>
+<th>age_clean</th>
+<th>age_at_first_tbi_bin</th>
+<th>education_years_stages_bin</th>
+<th>education_years_quartiles_bin</th>
+<th>longest_loc_duration_bin</th>
+<th>longest_loc_duration_clean</th>
+<th>act_demented_clean</th>
+<th>sex_clean</th>
+<th>apo_e4_allele_clean</th>
+<th>ever_tbi_w_loc_clean</th>
+<th>group_weight</th>
+<th>ihc_a_syn_FWM</th>
+<th>ihc_a_syn_HIP</th>
+<th>ihc_a_syn_PCx</th>
+<th>ihc_a_syn_TCx</th>
+<th>ihc_tau2_ffpe_FWM</th>
+<th>ihc_tau2_ffpe_HIP</th>
+<th>ihc_tau2_ffpe_PCx</th>
+<th>ihc_tau2_ffpe_TCx</th>
+<th>ihc_at8_ffpe_FWM</th>
+<th>ihc_at8_ffpe_HIP</th>
+<th>ihc_at8_ffpe_PCx</th>
+<th>ihc_at8_ffpe_TCx</th>
+<th>ihc_at8_FWM</th>
+<th>ihc_at8_HIP</th>
+<th>ihc_at8_PCx</th>
+<th>ihc_at8_TCx</th>
+<th>ihc_ptdp_43_ffpe_FWM</th>
+<th>ihc_ptdp_43_ffpe_HIP</th>
+<th>ihc_ptdp_43_ffpe_PCx</th>
+<th>ihc_ptdp_43_ffpe_TCx</th>
+<th>ihc_a_beta_ffpe_FWM</th>
+<th>ihc_a_beta_ffpe_HIP</th>
+<th>ihc_a_beta_ffpe_PCx</th>
+<th>ihc_a_beta_ffpe_TCx</th>
+<th>ihc_a_beta_FWM</th>
+<th>ihc_a_beta_HIP</th>
+<th>ihc_a_beta_PCx</th>
+<th>ihc_a_beta_TCx</th>
+<th>ihc_iba1_ffpe_FWM</th>
+<th>ihc_iba1_ffpe_HIP</th>
+<th>ihc_iba1_ffpe_PCx</th>
+<th>ihc_iba1_ffpe_TCx</th>
+<th>ihc_gfap_ffpe_FWM</th>
+<th>ihc_gfap_ffpe_HIP</th>
+<th>ihc_gfap_ffpe_PCx</th>
+<th>ihc_gfap_ffpe_TCx</th>
+<th>ptau_ng_per_mg_FWM</th>
+<th>ptau_ng_per_mg_HIP</th>
+<th>ptau_ng_per_mg_PCx</th>
+<th>ptau_ng_per_mg_TCx</th>
+<th>vegf_pg_per_mg_FWM</th>
+<th>vegf_pg_per_mg_HIP</th>
+<th>vegf_pg_per_mg_PCx</th>
+<th>vegf_pg_per_mg_TCx</th>
+<th>ab42_over_ab40_ratio_FWM</th>
+<th>ab42_over_ab40_ratio_HIP</th>
+<th>ab42_over_ab40_ratio_PCx</th>
+<th>ab42_over_ab40_ratio_TCx</th>
+<th>tnf_a_pg_per_mg_FWM</th>
+<th>tnf_a_pg_per_mg_HIP</th>
+<th>tnf_a_pg_per_mg_PCx</th>
+<th>tnf_a_pg_per_mg_TCx</th>
+<th>tau_ng_per_mg_FWM</th>
+<th>tau_ng_per_mg_HIP</th>
+<th>tau_ng_per_mg_PCx</th>
+<th>tau_ng_per_mg_TCx</th>
+<th>il_10_pg_per_mg_FWM</th>
+<th>il_10_pg_per_mg_HIP</th>
+<th>il_10_pg_per_mg_PCx</th>
+<th>il_10_pg_per_mg_TCx</th>
+<th>isoprostane_pg_per_mg_FWM</th>
+<th>isoprostane_pg_per_mg_HIP</th>
+<th>isoprostane_pg_per_mg_PCx</th>
+<th>isoprostane_pg_per_mg_TCx</th>
+<th>il_6_pg_per_mg_FWM</th>
+<th>il_6_pg_per_mg_HIP</th>
+<th>il_6_pg_per_mg_PCx</th>
+<th>il_6_pg_per_mg_TCx</th>
+<th>il_1b_pg_per_mg_FWM</th>
+<th>il_1b_pg_per_mg_HIP</th>
+<th>il_1b_pg_per_mg_PCx</th>
+<th>il_1b_pg_per_mg_TCx</th>
+<th>ptau_over_tau_ratio_FWM</th>
+<th>ptau_over_tau_ratio_HIP</th>
+<th>ptau_over_tau_ratio_PCx</th>
+<th>ptau_over_tau_ratio_TCx</th>
+<th>il_4_pg_per_mg_FWM</th>
+<th>il_4_pg_per_mg_HIP</th>
+<th>il_4_pg_per_mg_PCx</th>
+<th>il_4_pg_per_mg_TCx</th>
+<th>rantes_pg_per_mg_FWM</th>
+<th>rantes_pg_per_mg_HIP</th>
+<th>rantes_pg_per_mg_PCx</th>
+<th>rantes_pg_per_mg_TCx</th>
+<th>ab40_pg_per_mg_FWM</th>
+<th>ab40_pg_per_mg_HIP</th>
+<th>ab40_pg_per_mg_PCx</th>
+<th>ab40_pg_per_mg_TCx</th>
+<th>a_syn_pg_per_mg_FWM</th>
+<th>a_syn_pg_per_mg_HIP</th>
+<th>a_syn_pg_per_mg_PCx</th>
+<th>a_syn_pg_per_mg_TCx</th>
+<th>ifn_g_pg_per_mg_FWM</th>
+<th>ifn_g_pg_per_mg_HIP</th>
+<th>ifn_g_pg_per_mg_PCx</th>
+<th>ifn_g_pg_per_mg_TCx</th>
+<th>mcp_1_pg_per_mg_FWM</th>
+<th>mcp_1_pg_per_mg_HIP</th>
+<th>mcp_1_pg_per_mg_PCx</th>
+<th>mcp_1_pg_per_mg_TCx</th>
+<th>bdnf_pg_per_mg_FWM</th>
+<th>bdnf_pg_per_mg_HIP</th>
+<th>bdnf_pg_per_mg_PCx</th>
+<th>bdnf_pg_per_mg_TCx</th>
+<th>mip_1a_pg_per_mg_FWM</th>
+<th>mip_1a_pg_per_mg_HIP</th>
+<th>mip_1a_pg_per_mg_PCx</th>
+<th>mip_1a_pg_per_mg_TCx</th>
+<th>il_7_pg_per_mg_FWM</th>
+<th>il_7_pg_per_mg_HIP</th>
+<th>il_7_pg_per_mg_PCx</th>
+<th>il_7_pg_per_mg_TCx</th>
+<th>ab42_pg_per_mg_FWM</th>
+<th>ab42_pg_per_mg_HIP</th>
+<th>ab42_pg_per_mg_PCx</th>
+<th>ab42_pg_per_mg_TCx</th>
+<th>total_scan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>NA</td>
+<td>16-18 years</td>
+<td>14-16 years</td>
+<td>Unknown or N/A</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>NA</td>
+<td>16-18 years</td>
+<td>14-16 years</td>
+<td>Unknown or N/A</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>NA</td>
+<td>16-18 years</td>
+<td>14-16 years</td>
+<td>Unknown or N/A</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>NA</td>
+<td>16-18 years</td>
+<td>14-16 years</td>
+<td>Unknown or N/A</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>NA</td>
+<td>16-18 years</td>
+<td>14-16 years</td>
+<td>Unknown or N/A</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedText jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/plain" tabindex="0">
+<pre>(3969, 148)</pre>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+<thead>
+<tr style="text-align: right;">
+<th></th>
+<th>donor_id</th>
+<th>name</th>
+<th>age</th>
+<th>sex</th>
+<th>apo_e4_allele</th>
+<th>education_years</th>
+<th>age_at_first_tbi</th>
+<th>longest_loc_duration</th>
+<th>cerad</th>
+<th>num_tbi_w_loc</th>
+<th>dsm_iv_clinical_diagnosis</th>
+<th>control_set</th>
+<th>nincds_arda_diagnosis</th>
+<th>ever_tbi_w_loc</th>
+<th>race</th>
+<th>hispanic</th>
+<th>act_demented</th>
+<th>braak</th>
+<th>nia_reagan</th>
+<th>age_bin</th>
+<th>age_clean</th>
+<th>age_at_first_tbi_bin</th>
+<th>education_years_stages_bin</th>
+<th>education_years_quartiles_bin</th>
+<th>longest_loc_duration_bin</th>
+<th>longest_loc_duration_clean</th>
+<th>act_demented_clean</th>
+<th>sex_clean</th>
+<th>apo_e4_allele_clean</th>
+<th>ever_tbi_w_loc_clean</th>
+<th>group_weight</th>
+<th>ihc_a_syn_FWM</th>
+<th>ihc_a_syn_HIP</th>
+<th>ihc_a_syn_PCx</th>
+<th>ihc_a_syn_TCx</th>
+<th>ihc_tau2_ffpe_FWM</th>
+<th>ihc_tau2_ffpe_HIP</th>
+<th>ihc_tau2_ffpe_PCx</th>
+<th>ihc_tau2_ffpe_TCx</th>
+<th>ihc_at8_ffpe_FWM</th>
+<th>ihc_at8_ffpe_HIP</th>
+<th>ihc_at8_ffpe_PCx</th>
+<th>ihc_at8_ffpe_TCx</th>
+<th>ihc_at8_FWM</th>
+<th>ihc_at8_HIP</th>
+<th>ihc_at8_PCx</th>
+<th>ihc_at8_TCx</th>
+<th>ihc_ptdp_43_ffpe_FWM</th>
+<th>ihc_ptdp_43_ffpe_HIP</th>
+<th>ihc_ptdp_43_ffpe_PCx</th>
+<th>ihc_ptdp_43_ffpe_TCx</th>
+<th>ihc_a_beta_ffpe_FWM</th>
+<th>ihc_a_beta_ffpe_HIP</th>
+<th>ihc_a_beta_ffpe_PCx</th>
+<th>ihc_a_beta_ffpe_TCx</th>
+<th>ihc_a_beta_FWM</th>
+<th>ihc_a_beta_HIP</th>
+<th>ihc_a_beta_PCx</th>
+<th>ihc_a_beta_TCx</th>
+<th>ihc_iba1_ffpe_FWM</th>
+<th>ihc_iba1_ffpe_HIP</th>
+<th>ihc_iba1_ffpe_PCx</th>
+<th>ihc_iba1_ffpe_TCx</th>
+<th>ihc_gfap_ffpe_FWM</th>
+<th>ihc_gfap_ffpe_HIP</th>
+<th>ihc_gfap_ffpe_PCx</th>
+<th>ihc_gfap_ffpe_TCx</th>
+<th>ptau_ng_per_mg_FWM</th>
+<th>ptau_ng_per_mg_HIP</th>
+<th>ptau_ng_per_mg_PCx</th>
+<th>ptau_ng_per_mg_TCx</th>
+<th>vegf_pg_per_mg_FWM</th>
+<th>vegf_pg_per_mg_HIP</th>
+<th>vegf_pg_per_mg_PCx</th>
+<th>vegf_pg_per_mg_TCx</th>
+<th>ab42_over_ab40_ratio_FWM</th>
+<th>ab42_over_ab40_ratio_HIP</th>
+<th>ab42_over_ab40_ratio_PCx</th>
+<th>ab42_over_ab40_ratio_TCx</th>
+<th>tnf_a_pg_per_mg_FWM</th>
+<th>tnf_a_pg_per_mg_HIP</th>
+<th>tnf_a_pg_per_mg_PCx</th>
+<th>tnf_a_pg_per_mg_TCx</th>
+<th>tau_ng_per_mg_FWM</th>
+<th>tau_ng_per_mg_HIP</th>
+<th>tau_ng_per_mg_PCx</th>
+<th>tau_ng_per_mg_TCx</th>
+<th>il_10_pg_per_mg_FWM</th>
+<th>il_10_pg_per_mg_HIP</th>
+<th>il_10_pg_per_mg_PCx</th>
+<th>il_10_pg_per_mg_TCx</th>
+<th>isoprostane_pg_per_mg_FWM</th>
+<th>isoprostane_pg_per_mg_HIP</th>
+<th>isoprostane_pg_per_mg_PCx</th>
+<th>isoprostane_pg_per_mg_TCx</th>
+<th>il_6_pg_per_mg_FWM</th>
+<th>il_6_pg_per_mg_HIP</th>
+<th>il_6_pg_per_mg_PCx</th>
+<th>il_6_pg_per_mg_TCx</th>
+<th>il_1b_pg_per_mg_FWM</th>
+<th>il_1b_pg_per_mg_HIP</th>
+<th>il_1b_pg_per_mg_PCx</th>
+<th>il_1b_pg_per_mg_TCx</th>
+<th>ptau_over_tau_ratio_FWM</th>
+<th>ptau_over_tau_ratio_HIP</th>
+<th>ptau_over_tau_ratio_PCx</th>
+<th>ptau_over_tau_ratio_TCx</th>
+<th>il_4_pg_per_mg_FWM</th>
+<th>il_4_pg_per_mg_HIP</th>
+<th>il_4_pg_per_mg_PCx</th>
+<th>il_4_pg_per_mg_TCx</th>
+<th>rantes_pg_per_mg_FWM</th>
+<th>rantes_pg_per_mg_HIP</th>
+<th>rantes_pg_per_mg_PCx</th>
+<th>rantes_pg_per_mg_TCx</th>
+<th>ab40_pg_per_mg_FWM</th>
+<th>ab40_pg_per_mg_HIP</th>
+<th>ab40_pg_per_mg_PCx</th>
+<th>ab40_pg_per_mg_TCx</th>
+<th>a_syn_pg_per_mg_FWM</th>
+<th>a_syn_pg_per_mg_HIP</th>
+<th>a_syn_pg_per_mg_PCx</th>
+<th>a_syn_pg_per_mg_TCx</th>
+<th>ifn_g_pg_per_mg_FWM</th>
+<th>ifn_g_pg_per_mg_HIP</th>
+<th>ifn_g_pg_per_mg_PCx</th>
+<th>ifn_g_pg_per_mg_TCx</th>
+<th>mcp_1_pg_per_mg_FWM</th>
+<th>mcp_1_pg_per_mg_HIP</th>
+<th>mcp_1_pg_per_mg_PCx</th>
+<th>mcp_1_pg_per_mg_TCx</th>
+<th>bdnf_pg_per_mg_FWM</th>
+<th>bdnf_pg_per_mg_HIP</th>
+<th>bdnf_pg_per_mg_PCx</th>
+<th>bdnf_pg_per_mg_TCx</th>
+<th>mip_1a_pg_per_mg_FWM</th>
+<th>mip_1a_pg_per_mg_HIP</th>
+<th>mip_1a_pg_per_mg_PCx</th>
+<th>mip_1a_pg_per_mg_TCx</th>
+<th>il_7_pg_per_mg_FWM</th>
+<th>il_7_pg_per_mg_HIP</th>
+<th>il_7_pg_per_mg_PCx</th>
+<th>il_7_pg_per_mg_TCx</th>
+<th>ab42_pg_per_mg_FWM</th>
+<th>ab42_pg_per_mg_HIP</th>
+<th>ab42_pg_per_mg_PCx</th>
+<th>ab42_pg_per_mg_TCx</th>
+<th>total_scan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>0</td>
+<td>2</td>
+<td>14-16 years</td>
+<td>4</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>0</td>
+<td>2</td>
+<td>14-16 years</td>
+<td>4</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>0</td>
+<td>2</td>
+<td>14-16 years</td>
+<td>4</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>0</td>
+<td>2</td>
+<td>14-16 years</td>
+<td>4</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+<tr>
+<th>0</th>
+<td>326765665</td>
+<td>H14.09.078</td>
+<td>87</td>
+<td>M</td>
+<td>N</td>
+<td>16</td>
+<td>0</td>
+<td>Unknown or N/A</td>
+<td>0</td>
+<td>0</td>
+<td>No Dementia</td>
+<td>31</td>
+<td>No Dementia</td>
+<td>N</td>
+<td>White</td>
+<td>Not Hispanic</td>
+<td>No Dementia</td>
+<td>1</td>
+<td>1</td>
+<td>87-89</td>
+<td>87.0</td>
+<td>0</td>
+<td>2</td>
+<td>14-16 years</td>
+<td>4</td>
+<td>0.0</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>47.75</td>
+<td>-1.0</td>
+<td>0.000046</td>
+<td>-1.0</td>
+<td>0.000056</td>
+<td>-1.0</td>
+<td>0.003905</td>
+<td>-1.0</td>
+<td>0.003677</td>
+<td>-1.0</td>
+<td>0.013143</td>
+<td>-1.0</td>
+<td>0.001854</td>
+<td>-1.0</td>
+<td>0.012439</td>
+<td>-1.0</td>
+<td>0.000061</td>
+<td>-1.0</td>
+<td>0.001035</td>
+<td>-1.0</td>
+<td>0.001987</td>
+<td>-1.0</td>
+<td>0.008041</td>
+<td>-1.0</td>
+<td>0.006379</td>
+<td>-1.0</td>
+<td>0.007813</td>
+<td>-1.0</td>
+<td>0.00181</td>
+<td>-1.0</td>
+<td>0.045469</td>
+<td>-1.0</td>
+<td>0.025448</td>
+<td>-1.0</td>
+<td>0.064207</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>0.746922</td>
+<td>-1.0</td>
+<td>0.121403</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.64</td>
+<td>-1.0</td>
+<td>0.182779</td>
+<td>-1.0</td>
+<td>27.658229</td>
+<td>-1.0</td>
+<td>8.1</td>
+<td>-1.0</td>
+<td>0.8</td>
+<td>-1.0</td>
+<td>1.28179</td>
+<td>-1.0</td>
+<td>1.66869</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.12</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>-1.0</td>
+<td>2.664223</td>
+<td>-1.0</td>
+<td>74.04</td>
+<td>-1.0</td>
+<td>0.94</td>
+<td>-1.0</td>
+<td>0.24</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>0.582718</td>
+<td>-1.0</td>
+<td>0.072753</td>
+<td>-1.0</td>
+<td>0.0</td>
+<td>-1.0</td>
+<td>1.6</td>
+<td>-1.0</td>
+<td>12.78</td>
+<td>-1.0</td>
+<td>81.88</td>
+<td>-1.0</td>
+<td>0.545775</td>
+<td>-1.0</td>
+<td>0.157781</td>
+<td>-1.0</td>
+<td>0.296666</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>1.94</td>
+<td>-1.0</td>
+<td>0.84</td>
+<td>-1.0</td>
+<td>0.58</td>
+<td>-1.0</td>
+<td>18.68</td>
+<td>-1.0</td>
+<td>4.03619</td>
+<td>-1.0</td>
+<td>0.18</td>
+<td>-1.0</td>
+<td>3.7</td>
+<td>-1.0</td>
+<td>15.38</td>
+<td>-1.0</td>
+<td>0.6</td>
+<td>-1.0</td>
+<td>11.0</td>
+<td>-1.0</td>
+<td>0.099756</td>
+<td>-1.0</td>
+<td>4.36395</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Optimization terminated successfully.
+         Current function value: 0.488935
+         Iterations 6
+</pre>
+</div>
+</div>
+<div class="jp-OutputArea-child jp-OutputArea-executeResult">
+<div class="jp-RenderedHTMLCommon jp-RenderedHTML jp-OutputArea-output jp-OutputArea-executeResult" data-mime-type="text/html" tabindex="0">
+<table class="simpletable">
+<caption>Logit Regression Results</caption>
+<tr>
+<th>Dep. Variable:</th> <td>act_demented_clean</td> <th>  No. Observations:  </th> <td>  3672</td>
+</tr>
+<tr>
+<th>Model:</th> <td>Logit</td> <th>  Df Residuals:      </th> <td>  3664</td>
+</tr>
+<tr>
+<th>Method:</th> <td>MLE</td> <th>  Df Model:          </th> <td>     7</td>
+</tr>
+<tr>
+<th>Date:</th> <td>Sat, 09 Dec 2023</td> <th>  Pseudo R-squ.:     </th> <td>0.1310</td>
+</tr>
+<tr>
+<th>Time:</th> <td>19:44:47</td> <th>  Log-Likelihood:    </th> <td> -1795.4</td>
+</tr>
+<tr>
+<th>converged:</th> <td>True</td> <th>  LL-Null:           </th> <td> -2066.0</td>
+</tr>
+<tr>
+<th>Covariance Type:</th> <td>nonrobust</td> <th>  LLR p-value:       </th> <td>1.078e-112</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+<td></td> <th>coef</th> <th>std err</th> <th>z</th> <th>P&gt;|z|</th> <th>[0.025</th> <th>0.975]</th>
+</tr>
+<tr>
+<th>const</th> <td>   -2.8957</td> <td>    0.274</td> <td>  -10.579</td> <td> 0.000</td> <td>   -3.432</td> <td>   -2.359</td>
+</tr>
+<tr>
+<th>ever_tbi_w_loc_clean</th> <td>    0.5976</td> <td>    0.228</td> <td>    2.622</td> <td> 0.009</td> <td>    0.151</td> <td>    1.044</td>
+</tr>
+<tr>
+<th>sex_clean</th> <td>    0.4214</td> <td>    0.091</td> <td>    4.634</td> <td> 0.000</td> <td>    0.243</td> <td>    0.600</td>
+</tr>
+<tr>
+<th>apo_e4_allele_clean</th> <td>    1.4153</td> <td>    0.106</td> <td>   13.359</td> <td> 0.000</td> <td>    1.208</td> <td>    1.623</td>
+</tr>
+<tr>
+<th>cerad</th> <td>    0.4728</td> <td>    0.042</td> <td>   11.251</td> <td> 0.000</td> <td>    0.390</td> <td>    0.555</td>
+</tr>
+<tr>
+<th>education_years_stages_bin</th> <td>   -0.2967</td> <td>    0.038</td> <td>   -7.827</td> <td> 0.000</td> <td>   -0.371</td> <td>   -0.222</td>
+</tr>
+<tr>
+<th>age_at_first_tbi_bin</th> <td>    0.4702</td> <td>    0.126</td> <td>    3.727</td> <td> 0.000</td> <td>    0.223</td> <td>    0.717</td>
+</tr>
+<tr>
+<th>longest_loc_duration_bin</th> <td>    0.2159</td> <td>    0.064</td> <td>    3.365</td> <td> 0.001</td> <td>    0.090</td> <td>    0.342</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Interpretation:</strong>
+The logistic regression results can be interpreted as follows:</p>
+<ol>
+<li><p><strong>Model Overview</strong>:</p>
+<ul>
+<li><strong>Dependent Variable</strong>: <code>act_demented_clean</code></li>
+<li><strong>Number of Observations</strong>: 3,672</li>
+<li><strong>Pseudo R-squared</strong>: 0.1310, indicating a moderate level of explanatory power of the model.</li>
+<li><strong>Log-Likelihood</strong>: -1795.4, a measure of the model's goodness of fit.</li>
+<li><strong>LLR (Likelihood Ratio Test) p-value</strong>: 1.078e-112, indicating that the model as a whole is statistically significant.</li>
+</ul>
+</li>
+<li><p><strong>Coefficients Interpretation</strong>:</p>
+<ul>
+<li><strong><code>const</code></strong>: The negative coefficient suggests that, holding all other variables constant, the log odds of being diagnosed with dementia ('act_demented_clean') are lower.</li>
+<li><strong><code>ever_tbi_w_loc_clean</code> (History of TBI with LOC)</strong>: Coefficient of 0.5976 indicates that having a history of traumatic brain injury with loss of consciousness (TBI with LOC) increases the log odds of being diagnosed with dementia. P-Value of 0.009 suggests this effect is statistically significant.</li>
+<li><strong><code>sex_clean</code> (Gender)</strong>: The positive coefficient of 0.4214 suggests that being male (assuming male is coded with a higher value) increases the log odds of being diagnosed with dementia. The effect is statistically significant (P-Value &lt; 0.001).</li>
+<li><strong><code>apo_e4_allele_clean</code> (APOE4 Allele Status)</strong>: A coefficient of 1.4153 indicates a significant increase in the log odds of dementia diagnosis for individuals with the APOE4 allele. This is highly significant (P-Value &lt; 0.001).</li>
+<li><strong><code>cerad</code> (CERAD Score)</strong>: A positive coefficient of 0.4728, significant at P-Value &lt; 0.001, suggests that higher CERAD scores are associated with increased log odds of being diagnosed with dementia.</li>
+<li><strong><code>education_years_stages_bin</code> (Education Years)</strong>: The negative coefficient of -0.2967 indicates that higher education levels are associated with lower log odds of dementia diagnosis. This effect is statistically significant.</li>
+<li><strong><code>age_at_first_tbi_bin</code> (Age at First TBI)</strong>: A positive coefficient of 0.4702, significant at P-Value &lt; 0.001, suggests that an older age at first TBI is associated with higher log odds of being diagnosed with dementia.</li>
+<li><strong><code>longest_loc_duration_bin</code> (Longest Duration of LOC)</strong>: The coefficient of 0.2159, significant at P-Value = 0.001, implies that longer durations of LOC are associated with increased log odds of dementia diagnosis.</li>
+</ul>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<h3 id="Compare-with-GLM">Compare with GLM<a class="anchor-link" href="#Compare-with-GLM">¶</a></h3>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 </div>
 </div>
 </div>
@@ -8484,129 +10526,6 @@ dtype: float64
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<h3 id="Addressing-overfitting-with-resampling-(bootstrapping)">Addressing overfitting with resampling (bootstrapping)<a class="anchor-link" href="#Addressing-overfitting-with-resampling-(bootstrapping)">¶</a></h3>
-</div>
-</div>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs jp-mod-noInput">
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noInput">
-<div class="jp-Cell-outputWrapper">
-<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
-</div>
-<div class="jp-OutputArea jp-Cell-outputArea">
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedImage jp-OutputArea-output" tabindex="0">
-<img alt="No description has been provided for this image" class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+AAAAKrCAYAAABxz+dmAAAAOXRFWHRTb2Z0d2FyZQBNYXRwbG90bGliIHZlcnNpb24zLjguMCwgaHR0cHM6Ly9tYXRwbG90bGliLm9yZy81sbWrAAAACXBIWXMAAA9hAAAPYQGoP6dpAABdvklEQVR4nO3deVyVZf7/8fc5BxBcUMQFy7FSQzN3wyVzyUydsr5jtvwmlzItNc1y19FMTc0UNXPJyG1MLSvNFpvJyWmqcdywPdy31ERUEBTZzjn37w+GM55ABYQLDryejwcP4F7OdV18zn0f3udejs2yLEsAAAAAAKBQ2Yu6AwAAAAAAlAYEcAAAAAAADCCAAwAAAABgAAEcAAAAAAADCOAAAAAAABhAAAcAAAAAwAACOAAAAAAABhDAAQAAAAAwgAAOAFdhWVZRdwHXkJ8aUVdcCc+N7ErD36Q0jBFA8UAAB+Czxo0bp06dOl1xfqdOnTRu3Lgr/n4tW7Zs0dixY6+rjyXBvn379Kc//UkNGzbUfffdl+My48aNU7169by+mjdvrkcffVSbN28utL4tXrxYy5Yty/Xy6enpmjFjhj755JNC65NpCxYsUL169XK17LZt2zR06FC1a9dOTZo0UdeuXfXqq6/q3Llzhda/2bNnq2XLlmratKk2btyo7du3q2vXrmrYsKEGDBiQp/5LeRtvXhTUc+PixYsaNGiQmjRpooiICB09erRgOvhfGzZsyLatXf41depUSQX3d8rNfjCrrcu/GjRooFatWmnIkCE6cODAdffjSk6cOKF69eppw4YNkqQdO3aoXr162rFjR67WL4n7BADFm19RdwAATFm4cKHKly+f6+VXrlxZeJ3xIYsWLdJvv/2mRYsWqXLlyldcrmrVqlq4cKEkye12KzExUZ9++qmGDRumZcuWqW3btgXet/nz52vo0KG5Xj4uLk5//etf9corrxR4X4q7yMhILV26VN26ddOECRNUqVIl7du3T2+99ZY2b96s1atXq0aNGgXa5v79+7V06VI9+uij+r//+z/Vrl1bAwYMkNvtVlRUlEJDQ1WxYkW1a9cu14/5yCOP5Gn53Cqo58bGjRv15ZdfatKkSbr11ltVs2bNAuqht4ULF6pq1arZplepUkVSwf2d8rIfXLdunednl8ul3377TfPmzVOvXr20adOmHPtb0G6//XatW7dOdevWzdXypXmfAKBoEMABlBoNGjQo6i74pISEBIWHh6tDhw5XXS4gIEBNmzb1mtaxY0d99913WrduXaEEcOTOpk2b9NZbb2n8+PF68sknPdNbt26tDh06qEePHpo+fbrnDZSCcv78eUnS/fffrzvuuMMzLSIiQnfeeadnubCwsFw/ZlhYWJ6WNy1rzI8//rhsNluhtXPbbbddNdwXxd/p99t/ixYtVKNGDfXq1UsffvihnnnmmULvQ/ny5bP1AwCKE05BB1Bq/P4U9E8//VQPPvigGjdurNatW2vUqFE6ffq0JKlPnz7auXOndu7c6XU6Y1xcnMaPH68OHTqocePGevjhh7Vlyxavdi5evKhJkyapTZs2atasmYYPH66VK1d6nQ7ap08fjRo1SsOGDVPTpk3Vr18/SZmnU44ZM0Z33XWXbr/9drVp00ZjxoxRQkKC1zgWLlyoGTNmqFWrVmrWrJlGjhyp5ORkRUVFqX379mrRooWee+45r/Vycq3x1KtXTzt37tSuXbu8TvPMLZvNpgoVKmQLIlu3btXjjz+uFi1aqFWrVho5cqROnTrltczRo0c1bNgwtW3bVk2bNlWfPn20e/dur75JmUcCs35OTU3V5MmT1b59ezVs2FDdunXznKJ+4sQJ3XPPPZKk8ePHey5fGDdunJ544gm99NJLat68ue677z65XC7Fx8drypQpuvvuu9WwYUO1bNlSQ4YM0YkTJzx96NOnj8aNG6clS5bozjvvVIsWLfTss8/q5MmTnmUWLFigTp066csvv1S3bt3UpEkTPfroo9lOkT1//rwmTZqkO++8U40aNdKjjz6qbdu2eS2TlpamV155RW3btlWzZs00fvx4paWlXbMOUVFRqlu3rp544ols826++WaNHj1azZo181wHm5aWpkWLFqlbt25q1KiRunTpoqioKLndbq91v/jiCz300ENq1KiR2rZtq2nTpunSpUuecffp00eS9MQTT6hTp06qV6+eTp48qY0bN3q2q5xOld64caN69OihJk2aqGPHjpozZ47S09M9j/v75a/Wj6x17r33Xv3rX//SAw88oIYNG6pr167auHGjpCs/N+Lj4zVy5Ei1bdtWjRo10v/93/951slJnz59tGDBAklS/fr1PfubCxcu6JVXXlHnzp3VqFEjde/eXR988IHXup06ddKMGTP0xBNPqHHjxpowYcIV28mN3/+drrTPyc9+MC8aNmwoSZ5tIqsWCxcuVMuWLXXXXXcpMTFRkvT+++/r/vvvV8OGDdWxY0ctWLBALpfL6/E2b97s6W+PHj20d+9er/k5nYL+/fff66mnnlLz5s3VunVrjRgxQqdPn75i3aVr76M2bNigBg0a6P3331fbtm3VsmVLHTx4MM9/HwClDwEcgM9zOp05fl3N7t27NWbMGHXp0sVzZHD79u0aOXKkJOmll15SgwYN1KBBA61bt0633367zp49q4cffljR0dEaPny4FixYoBtvvFFDhgzRxx9/7HnsZ599Vn/729/03HPPad68eUpOTtacOXOy9eFvf/ubypUrpzfeeEMDBgxQSkqK+vbtq0OHDumll17SsmXL1LdvX23atEnz5s3zWnf58uU6deqU5s2bp8GDB+vTTz9Vz5499e9//1svv/yyRowYoS1btuj111+/4t8gN+NZt26d19+hY8eOuapFRkaGEhIStGrVKh04cEB//vOfPcts3LhRTz31lGrUqKG5c+dq/Pjx+u677/TYY495rkU+ePCgHnroIZ04cUITJ05UZGSkbDabnnjiCe3cudPTN0l6+OGHPT/PmDFDX3/9tcaOHatly5bpnnvu0axZs7R+/XpVq1bNc4R38ODBXkd7o6OjderUKS1atEgjR46U3W7XwIEDtXXrVo0aNUrLli3T0KFDtW3bNr300kteY96yZYs2bNigiRMnasqUKdqzZ4/69OmjlJQUzzLx8fEaO3asHn/8cc2fP1+BgYHq37+/9uzZIykz8D7xxBPasmWLhg8froULFyosLEwDBgzwCuGjR4/We++9p4EDB+q1115TYmLiNU8RPnPmjPbu3auOHTte8Yjs448/rv79+8tms8myLA0aNEhLly7VI488oiVLlqhbt2567bXXvMb+ySefaMiQIapdu7YWLVqkoUOH6uOPP9azzz4ry7L0yCOPaNKkSZKkSZMmad68eVq3bp2qVq2qDh06eLar31uzZo3Gjh2r22+/XQsXLtQzzzyjt99+W9OmTcux79fqx+V/h6lTp6pv376KiopSzZo1NXbsWB06dOiKz43Ro0fr0KFDmjJlit566y01aNBAY8eO1fbt23Psy0svvaSHH35YUubz89lnn1Vqaqoef/xxffLJJxowYIAWL16sFi1aaMKECVqyZEm2sTdq1EiLFy/2PM6VuN3ubPu8379B8nu/3+fkZz+YV0eOHJEk1apVyzPtt99+01dffaV58+Zp/Pjxqlixot588029+OKLatOmjZYsWaJevXrprbfe0osvvuhZ75///KeGDRumevXqadGiRfrjH/+o0aNHX7X9mJgY9e7dW2lpaZo1a5amTJmin3/+Wf37979i3XOzj5IyT7Nfvny5pk+frvHjx6tOnTp5/vsAKH04BR2ATzt58mS+/incvXu3AgMD9cwzzyggIECSVKlSJf3000+yLEt169b1XC+edTrjG2+8ofj4eH3++ee68cYbJUkdOnTQk08+qVmzZql79+7asWOH56hely5dJEnt27dX9+7ddejQIa8++Pv7a8qUKZ729+zZo7CwML366qv6wx/+ICnzFOEffvjBEzqzlC9fXvPmzZOfn5/uvPNOffjhhzp9+rTef/99VahQQZL0zTff6Ntvv73i32DFihXXHE/Tpk2z/R2u5Eq1+POf/6yWLVtKygwNkZGRuuuuu7zelMg68rxs2TKNGTNGCxcuVEBAgFatWuVpv2PHjurevbtmzZqlDz74wNOfsLAwz887d+5U27Ztdf/990uSWrVqpbJlyyo0NFQBAQG67bbbJGWGgcsvSXA6nZo6darnlN3Tp08rKChIY8eO9Zw63apVK/36669e17lKUkpKijZs2OCpWe3atdWjRw9t3LjR88ZDSkqKJk+erD/96U+SMuvauXNnRUVFad68efroo4+0d+9evffee2rSpImkzOdNnz59FBkZqfXr1+vAgQP6/PPPNXnyZM/jtmvXTg888MBVj7xlHbXL7bXIX3/9tf7zn/9o7ty5nr9j27ZtFRgYqPnz56tv376qW7euIiMj1a5dO0VGRnrWvfnmm/Xkk0/qq6++UseOHT3X4datW9czroCAAFWuXDnH55Pb7daiRYvUuXNnr8CdkpKiTZs2KSMjw2t5y7Jy1Y+sx5g+fbratGnjWebuu+/WV199paeeeirH58bOnTs1ZMgQde7cWZLUsmVLVapUybPN/l7dunU9z6Gs8a1du1b79+/Xu+++q2bNmknKrJvT6dTixYv1//7f/1OlSpUkSTfccINGjRp1pdJ4uffee7NNu+uuu656U8Lf73OioqLyvB+8msvf+ExNTdXevXs1Y8YMVahQQQ8++KDXcpdv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de3aVcuXL5eUeT1tr169dP/993tq+vujulfy3Xffye1267nnnvOEb5fLpf/85z+SvE/n3r17t1cI//nnn3XixAnPtcZZffvmm2+8fv/66689y7Rs2VKnTp1SaGioGjVq5PnaunWrli5dKofDodatW0uS/v73v3v19csvv7zmePr376/9+/dr9erV2eYdPHhQ69ev15133qkqVap4nsO/byfrxnwtWrRQ7dq1FRoaqhMnTnj1t3r16pozZ062o4S5Vbt2bYWEhGQb00cffaRnnnkm2zXgBdmP3z83Tp48qQ4dOnj+DrVr19bTTz+tO++80/N8yo2IiAidPHlS3333ndf0jz/+WP7+/nkOuQUpP/vBwtCkSRP5+/vr9OnTXnX08/PT3LlzdeLECZUpU0bNmjXT5s2bvc5auHxfm5M77rhDW7du9bp0JCYmRs8884x++eWXbHXP7T4KAPKLI+AASqXWrVtrxYoVGjdunB588EFlZGRo6dKlqlSpkifoBAcH67vvvtO2bdvUoEED9evXTx9//LGefPJJDR06VJUqVdLGjRu1fft2zZgxQ3a7XREREWrbtq0mTJjgOVL5wQcfaN++fdf8TODGjRvrnXfe0cyZM3X33XcrLi5Oy5Yt09mzZ6/7SF5OcjOevEhPT9f333/v+d3pdGrnzp164403PB+rJkkjRozQ+PHjNXLkSD344INKSEjQwoULVbFiRc9HIw0dOlRff/21+vbtq2eeeUb+/v5avXq1jh8/rqVLl3raCA4O1rfffqtdu3bpjjvu8Nw529/fX/Xq1dORI0f04YcfqmvXrpL+d43stm3bVKdOHc+NwX4vKxRNnTpVPXv2VGJiotasWeP5yKNLly55LgNISUnRgAEDNHjwYCUnJ2vevHkKDw/3uuZbyvyYoxdeeEGhoaFatmyZLl265LlPwUMPPaTVq1erX79+GjRokGrUqKH//Oc/euutt9S7d2/5+/vrpptu0mOPPaZ58+bJ6XTqtttu00cffaR9+/Zdszb33Xef/vOf/2jatGn64Ycf1K1bN5UtW1Y//vijVqxYoZCQEM9Nz9q3b69WrVpp4sSJOn36tOrXr6+dO3fqrbfeUo8ePTz3BRg+fLgmTZokh8Ohu+++W0lJSVq8eLFOnz6drxsjSpkh+LnnntPUqVMVGhqqTp066ciRI3r99dfVq1evbNuBw+EosH7k9NwICwvTtGnTdPHiRdWqVUs///yzvvrqKw0cODDXj/vQQw9p7dq1GjJkiIYNG6aaNWvqn//8p9avX6+hQ4d6jv4WhfzsBwtjXxQSEqIBAwZo/vz5unjxolq1aqXTp09r/vz5stlsnstHRowYoSeeeEJDhw7VY489piNHjmS7k/zvPfvss3rsscc0cOBA9e3bV6mpqXrttdfUuHFjtW3b1hPML697bvZRAJBfBHAApVKHDh0UGRmp5cuXa+jQobLZbGrRooVWrVrlOQWxV69e+vnnn/X000/rlVde0QMPPKB33nlHc+bM0bRp05SRkaH69etr8eLFns+SlTKvG505c6bmzJkjp9Ope+65R3/+85+v+vnBktSjRw+dOHFC69ev19q1a1W9enV16NBBjz/+uF588UUdOnSoQD/mpmrVqrkaT26dOXNGjz32mOd3f39/3Xjjjerbt6/XjdAeeughlStXTm+++aaGDBmi8uXLq127dhoxYoTnWtlbb71Va9eu9XwEkM1mU+PGjbVq1SrPnZOlzDsQL168WE8//bQ+++wzTZ06Va+99pqWL1+uM2fOKDQ0VA8//LDnxk3ly5dXv379tG7dOn311VfaunVrjmNp1aqVJk2apBUrVujvf/+7qlSpolatWmnhwoUaMmSI58ZOUuYRttatW3s+t7lTp04aM2ZMtnsQTJ48WTNmzFB8fLyaN2+ud955x3OWQdmyZbVmzRrNmTNHs2fP1oULF3TjjTdq5MiReuqppzyP8dJLL6lKlSpavXq1EhMT1a5dOw0aNEivvfbaNeszbdo0tWrVSu+9954mTZqk5ORk3XDDDXrkkUfUv39/z6m1NptNb775pl5//XWtXLlS8fHxqlmzpkaMGOEVPh555BGVK1dOS5cu1bp161S2bFk1b95ckZGROd5bILd69eqlsmXLatmyZVq3bp3CwsL09NNP6+mnn85x+YLqR07PjYULF2ru3LmaP3++EhISVKNGDQ0dOvSK1yrnJCgoSG+//bbmzJnjCZi1a9fW9OnTr/lRY4Utv/vBwvDCCy+oatWqWrt2rZYuXaqKFSuqTZs2GjFihOfNkTvuuENvvfWW5s6dq6FDh6pmzZqaMWOGBg0adMXHbdCggefv/8ILL6h8+fLq0KGDRo0apYCAAAUEBGSre272UQCQXzbrancfAQDkycmT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DQUnL/vHd955Ry+//LIefPBBjRkzxjP9rbfeUlpamudsknr16unixYt644039Nxzz/EGl2FZ/0Smp6d7/UPJ61Hx8sUXX2jUqFFq3ry5IiMjJUlTp07V2LFjPdtdeHi4/P39NXz4cI0ZM4Yjqob5+flpx44dcjgcnm2pYcOGOnDggJYtW5bj/35Zwbts2bLG+4v/2bhxo/70pz957QP/9Kc/qX379l5vKt96661q3769/vnPf+q+++4riq7iv661PRXUaxsB3BB/f/+rXm+aGzVq1FBcXJzXtLi4OJUtW1YVKlRQWFiYzp8/r/T0dK93ZuLi4ryunUTe5bZ+W7duVUZGhv74xz9mm2e32z3hO8utt94qKfOUFwJ4wclNvYKDg71+t9vtqlOnjk6fPi3p2tsbCk5ut6/Zs2dr6dKl6tevn8aOHev1JldAQEC2d6TDw8N16dIlJSYmZtv2ULiyTs+Li4tTrVq1PNPj4uL4uJ1iYvXq1Zo+fbq6deumV1991bP9+Pn5ZTsocPlrFQHcvHLlymWbduutt+rf//63wsLCcnytksT/fkVo7969On78uB544IFs835/xmu1atVUqVIlLs8pBq61PTmdTs+063lt45CAD7njjju0c+dOr2nbt29X8+bNZbfb1aJFC7ndbs/N2CTpyJEjOn36tCIiIkx3t1SKjo5W/fr1c/xnf8yYMXryySe9pv3000+SpLp165roHv7r66+/VrNmzbw+t9HpdGrv3r2eWlxre4NZWeF77NixGjdunFf4tixLnTt31sKFC73W+emnn1S1alXCdxGoX7++ypcvrx07dnimJSUlKSYmhtejYmDt2rV6+eWX1atXL82dO9frzas+ffpo/PjxXsv/9NNP8vf3180332y4pzhw4ICaN2/utS1J0s8//6y6desqIiJCu3fvlsvl8szbvn27brnlFoWGhpruLv4rOjpaoaGhql+/vtf0efPmqWvXrl43cz1x4oQSEhL4X7AYuNb2VFCvbfwX6UP69OmjH3/8UZGRkTp06JCWL1+uv//97xowYICkzHdm7r//fk2cOFE7duzQjz/+qBEjRqhly5Zq2rRp0Xa+lIiJicm2s83StWtXbdu2TQsXLtSvv/6qr776Sn/5y1/UvXv36z47AnnTvHlzhYSEaOzYsfr555+1b98+jR07VufPn/e8SXKt7Q3m7NixQ0uXLlWfPn30wAMP6MyZM56v5ORk2Ww23XvvvVq2bJk+++wz/frrr1q3bp2WLl2qYcOGFXX3S6WAgAD17t1bkZGR2rJli/bu3avhw4crLCxMXbp0KerulWpHjhzRjBkzdO+992rgwIE6e/asZ3u6cOGCunbtqo8++kjvvPOOjh8/rs8++0yzZs1S//79Vb58+aLufqlTp04d1a5dW1OnTlV0dLQOHTqkV155Rd9//70GDx6snj176uLFi5owYYIOHjyoDRs2aOXKlRo4cGBRd71Ui4mJyfGI6L333quTJ09q8uTJOnLkiHbt2qXnnntOzZs3V7t27Yqgp7jctbangnpts1l8nk6x1KdPH914442aOXOm1/Svv/5as2fP1tGjR1WzZk0999xzXteLXLp0STNmzNDnn38uSWrfvr0mTpzIESBD7rvvPnXq1EmjRo3Kcf7f/vY3RUVF6fDhw6pQoYIeeOABvfDCC9nuXI/C9+uvvyoyMlI7duxQWlqaWrRoobFjx3rd/fJa2xvMePHFF/Xee+/lOG/o0KF67rnn5HQ69eabb+rDDz9UbGysatasqaeeekqPPvqo4d4ii8vl0ty5c7VhwwalpqYqIiJCkyZNyvFjNmHOkiVLNG/evBzn9ejRQzNnztSaNWu0Zs0aHT9+3HOvkmeeeYazf4rI2bNnNWfOHH3zzTdKSkpSgwYNNGrUKN1xxx2SpB9//FHTp09XTEyMqlatqqeeekq9e/cu4l6Xbk8//bTKly+f47a2bds2zZ8/X/v27VNAQIDuuecer/suwJxx48bp5MmTevvttz3TrrU9FcRrGwEcAAAAAAADeCsTAAAAAAADCOAAAAAAABhAAAcAAAAAwAACOAAAAAAABhDAAQAAAAAwgAAOAAAAAIABBHAAAAAAAAwggAMAAAAAYAABHAAAAAAAAwjgAAAAAAAYQAAHAAAAAMCA/w+bNhDL9Oyj2AAAAABJRU5ErkJggg=="/>
-</div>
-</div>
-<div class="jp-OutputArea-child">
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>             const  ever_tbi_w_loc_clean    sex_clean  apo_e4_allele_clean  \
-count  1000.000000           1000.000000  1000.000000          1000.000000   
-mean     -4.797891             -0.537139     0.332246             1.561682   
-std      13.493060             10.935049     0.897207             1.388307   
-min    -103.630611           -126.352656    -3.156800            -3.496091   
-25%      -6.377869             -0.517761    -0.200069             0.720115   
-50%      -4.583468              1.076810     0.313247             1.606680   
-75%      -2.930072              2.466379     0.855561             2.398373   
-max      92.336454             65.321181     4.224562             7.604770   
-
-             cerad  education_years_stages_bin  age_at_first_tbi_bin  \
-count  1000.000000                 1000.000000           1000.000000   
-mean      0.847552                   -0.424153              1.145260   
-std       0.539958                    0.405699              5.186549   
-min      -1.896702                   -3.036511            -23.766602   
-25%       0.508894                   -0.634996             -0.270978   
-50%       0.853878                   -0.370957              0.629466   
-75%       1.141716                   -0.167547              1.567830   
-max       3.288073                    0.640121             76.298372   
-
-       longest_loc_duration_bin  
-count               1000.000000  
-mean                   0.351498  
-std                    3.372768  
-min                  -23.953632  
-25%                   -0.108405  
-50%                    0.304236  
-75%                    0.726088  
-max                   24.881266  
-           const  ever_tbi_w_loc_clean  sex_clean  apo_e4_allele_clean  \
-0.025 -11.584339            -11.358117  -1.483208            -1.280869   
-0.975   3.030387              5.660865   2.222147             4.309596   
-
-          cerad  education_years_stages_bin  age_at_first_tbi_bin  \
-0.025 -0.140201                   -1.392584             -2.113121   
-0.975  1.980870                    0.225083              5.644882   
-
-       longest_loc_duration_bin  
-0.025                 -1.534871  
-0.975                  2.047608  
-                            Original  Mean Bootstrapped
-const                      -2.927782          -4.797891
-ever_tbi_w_loc_clean        0.611508          -0.537139
-sex_clean                   0.417056           0.332246
-apo_e4_allele_clean         1.402066           1.561682
-cerad                       0.472046           0.847552
-education_years_stages_bin -0.290677          -0.424153
-age_at_first_tbi_bin        0.471410           1.145260
-longest_loc_duration_bin    0.224390           0.351498
-</pre>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
-<p>The bootstrapped coefficients and their statistics provide valuable insights into the stability and robustness of the model:</p>
-<ol>
-<li><p><strong>Coefficient Variability</strong>:</p>
-<ul>
-<li>The standard deviations (<code>std</code>) are quite large for some coefficients, especially when compared to their means. This indicates a high degree of variability in the coefficient estimates across different samples. For example, <code>ever_tbi_w_loc_clean</code> and <code>age_at_first_tbi_bin</code> show particularly high variability.</li>
-<li>The wide range between the minimum and maximum values for some coefficients further underscores this variability.</li>
-</ul>
-</li>
-<li><p><strong>Coefficient Mean vs. Original Model</strong>:</p>
-<ul>
-<li>Comparing the mean bootstrapped coefficients with the original coefficients, we observe some notable differences. For instance, the coefficient for <code>ever_tbi_w_loc_clean</code> has changed from a positive value in the original model to a negative mean value in the bootstrapped models.</li>
-<li>These differences suggest that the original model's estimates might be sensitive to the specific sample of data used.</li>
-</ul>
-</li>
-<li><p><strong>Confidence Intervals</strong>:</p>
-<ul>
-<li>The 95% confidence intervals (from the 2.5th to the 97.5th percentiles) for some predictors are wide and sometimes include both positive and negative values (e.g., <code>ever_tbi_w_loc_clean</code>). This indicates uncertainty about the direction of the effect of these predictors.</li>
-<li>Wide confidence intervals generally suggest a lack of precision in the estimation of the coefficients, which can be a sign of instability in the model.</li>
-</ul>
-</li>
-<li><p><strong>Overfitting Assessment</strong>:</p>
-<ul>
-<li>The high variability and wide confidence intervals in the bootstrapped coefficients suggest that the original model might be overfitting the data. Overfitting occurs when the model is too closely tailored to the specific nuances of the training data, reducing its ability to generalize to new data.</li>
-</ul>
-</li>
-<li><p><strong>Statistical Significance</strong>:</p>
-<ul>
-<li>Unlike the original GLM output, bootstrapping does not directly provide p-values for statistical significance testing. However, if the confidence intervals consistently exclude zero (especially for important predictors), it suggests that the effect of those predictors is statistically significant.</li>
-<li>In this case, some predictors have confidence intervals that include zero, which means we cannot confidently assert their statistical significance based on this analysis alone.</li>
-</ul>
-</li>
-<li><p><strong>Practical Implications</strong>:</p>
-<ul>
-<li>The variability in the coefficients, particularly for key variables, suggests the need for caution in interpreting the model's results. It may be beneficial to explore model simplification, additional data collection, or alternative modeling approaches to achieve more stable estimates.</li>
-</ul>
-</li>
-</ol>
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper" tabindex="0">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="Watermark">Watermark<a class="anchor-link" href="#Watermark">¶</a></h2>
 </div>
 </div>
@@ -8632,7 +10551,7 @@ longest_loc_duration_bin    0.224390           0.351498
 <div class="jp-OutputArea jp-Cell-outputArea">
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
-<pre>Last updated: 2023-12-09T01:51:23.833429+01:00
+<pre>Last updated: 2023-12-09T19:44:47.903114+01:00
 
 Python implementation: CPython
 Python version       : 3.9.16
@@ -8659,10 +10578,10 @@ Architecture: 64bit
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>numpy      : 1.26.1
-statsmodels: 0.14.0
-pandas     : 2.1.1
-matplotlib : 3.8.0
 seaborn    : 0.13.0
+matplotlib : 3.8.0
+pandas     : 2.1.1
+statsmodels: 0.14.0
 
 </pre>
 </div>
@@ -8698,8 +10617,8 @@ seaborn    : 0.13.0
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
 <pre>03.02_causal_inference-modelling.ipynb
 [NbConvertApp] Converting notebook 03.02_causal_inference-modelling.ipynb to html
-[NbConvertApp] WARNING | Alternative text is missing on 7 image(s).
-[NbConvertApp] Writing 809944 bytes to ../reports/html/2023-12-09_03.02_causal_inference-modelling.html
+[NbConvertApp] WARNING | Alternative text is missing on 6 image(s).
+[NbConvertApp] Writing 814838 bytes to ../reports/html/2023-12-09_03.02_causal_inference-modelling.html
 </pre>
 </div>
 </div>
@@ -8713,8 +10632,8 @@ seaborn    : 0.13.0
 <div class="jp-OutputArea-child">
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
 <pre>[NbConvertApp] Converting notebook 03.02_causal_inference-modelling.ipynb to html
-[NbConvertApp] WARNING | Alternative text is missing on 7 image(s).
-[NbConvertApp] Writing 714112 bytes to ../reports/html/2023-12-09_03.02_causal_inference-modelling_no_code.html
+[NbConvertApp] WARNING | Alternative text is missing on 6 image(s).
+[NbConvertApp] Writing 717131 bytes to ../reports/html/2023-12-09_03.02_causal_inference-modelling_no_code.html
 </pre>
 </div>
 </div>
