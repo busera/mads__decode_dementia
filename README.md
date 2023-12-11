@@ -26,7 +26,7 @@
 
 ### 1.2. Introduction and Objectives
 
-Traumatic brain injuries (TBI) are a serious health issue that affects millions of people each year. These injuries can range from a mild bump on the head to severe trauma, and they can lead to long-term problems, including the risk of developing dementia – a condition that impairs memory and thinking skills. As our population ages, understanding the connection between TBI and dementia is becoming increasingly important.
+​​Traumatic brain injuries (TBI) are a serious health issue that affects hundreds-thousands of people each year according to the [Centers for Disease Control and Prevention (CDC)](https://www.cdc.gov/traumaticbraininjury/index.html). These injuries can range from a mild bump on the head to severe trauma, and they can lead to long-term problems, including the risk of developing dementia – a condition that impairs memory and thinking skills. As our population ages, understanding the connection between TBI and dementia is becoming increasingly important.
 
 The brain is a delicate and complex organ, and how it reacts to injuries is not fully clear. After a TBI, there can be immediate damage as well as a series of changes in the brain that may contribute to diseases like dementia. Studies have shown that people who have had a TBI may be more likely to develop dementia, but we don’t yet know exactly why this is the case. 
 
