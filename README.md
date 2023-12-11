@@ -26,27 +26,24 @@
 
 ### 1.2. Introduction and Objectives
 
-​​Traumatic brain injuries (TBI) are a serious health issue that affects millions of people each year. These injuries can range from a mild bump on the head to severe trauma, and they can lead to long-term problems, including the risk of developing dementia – a condition that impairs memory and thinking skills. As our population ages, understanding the connection between TBI and dementia is becoming increasingly important.
+Traumatic brain injuries (TBI) are a serious health issue that affects millions of people each year. These injuries can range from a mild bump on the head to severe trauma, and they can lead to long-term problems, including the risk of developing dementia – a condition that impairs memory and thinking skills. As our population ages, understanding the connection between TBI and dementia is becoming increasingly important.
 
-The brain is a delicate and complex organ, and how it reacts to injuries is not fully clear. After a TBI, there can be immediate damage as well as a series of changes in the brain that may contribute to diseases like dementia. Studies have shown that people who have had a TBI may be more likely to develop dementia, but we don’t yet know exactly why this is the case.
+The brain is a delicate and complex organ, and how it reacts to injuries is not fully clear. After a TBI, there can be immediate damage as well as a series of changes in the brain that may contribute to diseases like dementia. Studies have shown that people who have had a TBI may be more likely to develop dementia, but we don’t yet know exactly why this is the case. 
 
-Although we know there’s a link between TBI and a higher chance of getting dementia, we don’t fully understand all the factors involved. This lack of knowledge makes it hard to come up with ways to prevent or treat the long-term effects of TBI.
-
-Figuring out how TBI leads to dementia is crucial. It can help us identify who is most at risk and find ways to help them early on. It can also lead to new treatments to lessen the impact of TBI. Plus, this research can inform policies and education to reduce TBIs and promote brain health, which is important for individuals and society as a whole. 
+Our project was designed to enhance our understanding of the outcomes following traumatic brain injuries, focusing on their determinants and consequences. We used causal inference to investigate the complex relationships between TBI and the subsequent risk of dementia, considering a range of demographic and clinical factors.
 
 Our project is split into two main parts:
 
-- **Step 1:** Looking at People’s Backgrounds and TBI Details
-First, we’re studying how TBI is linked to dementia and how factors like age, gender, education, genetics, and brain health scores play a role. 
-  - We’ll know we’re on the right track if we:
-  - Find clear evidence that TBI and dementia are connected.
-  - Measure how strong this connection is and show that it’s meaningful.
+**Step 1: Looking at People’s Backgrounds and TBI Details**
+First, we’re studying how TBI is linked to dementia and how factors like age, gender, education, genetics, and brain health scores play a role. We’ll know we’re on the right track if we:
+- Find clear evidence that TBI and dementia are connected.
+- Measure how strong this connection is and show that it’s meaningful.
 
-- **Step 2:** Studying Proteins and Brain Changes
+**Step 2: Studying Proteins and Brain Changes**
 Next, we’re examining the proteins in the brain and other changes to find patterns that could explain the link between TBI and dementia. We’ll consider this part successful if we:
-  - Group the data in a way that makes sense and is backed up by the numbers.
-  - Show clear differences in protein levels between these groups.
-  - Present our findings in easy-to-understand format
+- Group the data in a way that makes sense and is backed up by the numbers.
+- Show clear differences in protein levels between these groups.
+- Present our findings in easy-to-understand format
 
 ## 2. Dataset
 
