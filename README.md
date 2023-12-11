@@ -169,7 +169,7 @@ While our study provides extensive insights, it is not without limitations. The 
 The implications of our findings could be far-reaching for public health policies, clinical practices, and individual decision-making. They emphasize the need for improved TBI prevention strategies, heightened awareness of its long-term risks, and the adoption of personalized medical approaches that take genetic and demographic factors into account. Additionally, our study calls for the establishment of ethical guidelines in research and application to prevent discrimination.
 In conclusion, this study not only contributes to the growing body of knowledge on TBI and dementia but also opens new avenues for research and policy-making that can profoundly impact public health and individual well-being.
 
-The complete report can be accessed here: [Report](../data/Decoding Dementia - Report.pdf)
+The complete report can be accessed here: [Report](data/Decoding%20Dementia%20-%20Report.pdf)
 
 ## 7. References
 
