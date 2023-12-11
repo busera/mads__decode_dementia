@@ -12,7 +12,8 @@
   - [5. Installation and Setup](#5-installation-and-setup)
     - [5.1. Environment Setup](#51-environment-setup)
     - [5.2. Add Data](#52-add-data)
-  - [6. References](#6-references)
+  - [6. Conclusion](#6-conclusion)
+  - [7. References](#7-references)
 
 ## 1. Project Overview
 
@@ -157,6 +158,16 @@ data
     └── tbi_data_files.csv
 ```
 
-## 6. References
+## 6. Conclusion
+In our study, we established a substantial link between traumatic brain injuries (TBI) and an elevated risk of dementia. Key findings indicate that TBIs, especially those involving loss of consciousness, alongside the presence of the APOE ε4 allele and male gender, significantly increase dementia risk, while higher education levels seem to offer some protective effects. 
+
+Utilizing ANOVA, we identified five critical brain biomarkers related to protein patterns, with particular emphasis on the Aβ42/Aβ40 ratio and tau protein levels. These findings underscore the complex impact of TBI on cognitive health, supported by strong statistical evidence.
+
+While our study provides extensive insights, it is not without limitations. The potential presence of unseen confounding variables and the reliance on retrospective data suggest a need for further research. Future studies should aim to include longitudinal analyses to better understand the connections between TBI and dementia and to explore the underlying mechanisms.
+
+The implications of our findings could be far-reaching for public health policies, clinical practices, and individual decision-making. They emphasize the need for improved TBI prevention strategies, heightened awareness of its long-term risks, and the adoption of personalized medical approaches that take genetic and demographic factors into account. Additionally, our study calls for the establishment of ethical guidelines in research and application to prevent discrimination.
+In conclusion, this study not only contributes to the growing body of knowledge on TBI and dementia but also opens new avenues for research and policy-making that can profoundly impact public health and individual well-being.
+
+## 7. References
 
 - Allen Institute for Brain Science. (2017). Technical White Paper: Overview of the Aging, Dementia and Traumatic Brain Injury (TBI) Project. http://aging.brain-map.org/overview/home
