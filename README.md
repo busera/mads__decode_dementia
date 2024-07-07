@@ -45,6 +45,8 @@ Next, we’re examining the proteins in the brain and other changes to find patt
 - Show clear differences in protein levels between these groups.
 - Present our findings in easy-to-understand format
 
+The complete report can be accessed here: [Decode Dementia Report](https://github.com/busera/MADS__SIADS699__Decode_Dementia/blob/main/docs/Decoding%20Dementia%20-%20Report.pdf)
+
 ## 2. Dataset
 
 Our analysis incorporated a subset of the dataset from the Aging, Dementia, and Traumatic Brain Injury Study, a collaborative effort spearheaded by the University of Washington, Kaiser Permanente Washington Health Research Institute, and the Allen Institute for Brain Science.”
